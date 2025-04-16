@@ -18,29 +18,27 @@ This tool also bypasses Board ID checks, allowing for cross-vendor and custom vB
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- A supported NVIDIA RTX 50 Series GPU
-- Windows 10/11 or a modern Linux distribution
-- Admin/root privileges
-
-### Installation
+## 🚀 Installation
 
 1. **Download** the latest version from [Release](https://github.com/WillyBilly06/NVFLASH/releases/tag/Release)
 2. **Extract** the archive to a folder
-3. **Backup your current vBIOS**
-   ```bash
-   nvflashb --save backup.rom
+3. **Download your desired vBIOS** and put it in the **same folder** as `nvflashb.exe`.
+4. **Open Command Prompt as Administrator**, then navigate to the folder using `cd`.  
+   Example (if the folder is on your Desktop):
+   ```cmd
+   cd %USERPROFILE%\Desktop\nvflash
    ```
-4. **Disable write protection (if enabled)**
-   ```bash
-   nvflashb --protectoff
+5. **Backup your current BIOS** (the backup file will be saved in the same folder):
+   ```cmd
+   nvflashb.exe --save backup.rom
    ```
-5. **Flash new BIOS**
-   ```bash
-   nvflashb -6 YourDesiredBios.rom
+6. **Disable write protection (if enabled)**:
+   ```cmd
+   nvflashb.exe --protectoff
+   ```
+7. **Flash the new BIOS**:
+   ```cmd
+   nvflashb.exe -6 YourDesiredBios.rom
    ```
 
 > ⚠️ **Warning:** Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
@@ -49,10 +47,9 @@ The `-6` flag forces flashing even if Board ID mismatches occur. Make sure you a
 
 If you need help or want to learn more about flashing NVIDIA BIOS, check out these helpful resources:
 
-- [NVFlash Downloads on TechPowerUp](https://www.techpowerup.com/download/nvidia-nvflash/)
+- [NVFlash Downloads on TechPowerUp]([https://www.techpowerup.com/download/nvidia-nvflash/](https://www.techpowerup.com/forums/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series.312608/))
 - [Overclock.net nvflashk Thread](https://www.overclock.net/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series-including-founders-edition-cards.1807438/)
 - [YouTube: How to Flash NVIDIA GPU BIOS](https://www.youtube.com/watch?v=BnBbfaQayFo)
-
 ---
 ## 🙌 Acknowledgments
 
