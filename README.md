@@ -67,7 +67,7 @@ Their contributions made it possible to:
 - Unlock greater flexibility for enthusiasts and developers
 
 This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community.  
-Without their effort and open-source spirit, this tool wouldn't exist.
+Without their effort and hard work, this tool wouldn't exist.
 ---
 ## 👤 Author
 
