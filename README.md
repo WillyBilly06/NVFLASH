@@ -47,7 +47,7 @@ The `-6` flag forces flashing even if Board ID mismatches occur. Make sure you a
 
 If you need help or want to learn more about flashing NVIDIA BIOS, check out these helpful resources:
 
-- [NVFlash Downloads on TechPowerUp]([https://www.techpowerup.com/download/nvidia-nvflash/](https://www.techpowerup.com/forums/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series.312608/))
+- [NVFlash Forum on TechPowerUp]([[https://www.techpowerup.com/download/nvidia-nvflash/](https://www.techpowerup.com/forums/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series.312608/)])
 - [Overclock.net nvflashk Thread](https://www.overclock.net/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series-including-founders-edition-cards.1807438/)
 - [YouTube: How to Flash NVIDIA GPU BIOS](https://www.youtube.com/watch?v=BnBbfaQayFo)
 ---
