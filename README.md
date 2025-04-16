@@ -63,7 +63,7 @@ His contributions made it possible to:
 - Unlock greater flexibility for enthusiasts and developers
 
 This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community.  
-Without their effort and hard work, this tool wouldn't exist.
+Without his effort and hard work, this new version of the tool wouldn't exist.
 ---
 ## 👤 Author
 - GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
