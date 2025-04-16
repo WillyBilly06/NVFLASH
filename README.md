@@ -54,13 +54,21 @@ If you need help or want to learn more about flashing NVIDIA BIOS, check out the
 - [Overclock.net nvflashk Thread](https://www.overclock.net/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series-including-founders-edition-cards.1807438/)
 - [YouTube: How to Flash NVIDIA GPU BIOS](https://www.youtube.com/watch?v=BnBbfaQayFo)
 
-Special thanks to [@notfromstatefarm](https://github.com/notfromstatefarm) for their work on  
-[nvflashk](https://github.com/notfromstatefarm/nvflashk), which provided the groundwork for this tool.  
-Their dedication to bypassing board ID restrictions made advanced flashing possible for many users.  
-This patched release builds upon their innovation to enable support for the RTX 50 Series (Blackwell).
-
 ---
+## 🙌 Acknowledgments
 
+Huge thanks to [@notfromstatefarm](https://github.com/notfromstatefarm) for their incredible work on  
+[nvflashk](https://github.com/notfromstatefarm/nvflashk), which introduced powerful modifications to NVIDIA's NVFlash utility.
+
+Their contributions made it possible to:
+
+- Bypass Board ID checks
+- Safely flash cross-vendor vBIOS
+- Unlock greater flexibility for enthusiasts and developers
+
+This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community.  
+Without their effort and open-source spirit, this tool wouldn't exist.
+---
 ## 👤 Author
 
 **Your Name**  
