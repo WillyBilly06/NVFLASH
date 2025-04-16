@@ -70,10 +70,8 @@ This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** 
 Without their effort and hard work, this tool wouldn't exist.
 ---
 ## 👤 Author
-
-**Your Name**  
-GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
-Email: who18@calpoly.edu || billydakidz0605@gmail.com
+- GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
+- Email: who18@calpoly.edu || billydakidz0605@gmail.com
 ---
 
 ## 📄 License
