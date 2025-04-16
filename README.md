@@ -72,9 +72,8 @@ Without their effort and hard work, this tool wouldn't exist.
 ## 👤 Author
 
 **Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)  
-Email: your.email@example.com
-
+GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
+Email: who18@calpoly.edu || billydakidz0605@gmail.com
 ---
 
 ## 📄 License
