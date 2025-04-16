@@ -33,41 +33,43 @@ This tool also bypasses Board ID checks, allowing for cross-vendor and custom vB
 3. **Backup your current vBIOS**
    ```bash
    nvflash --save backup.rom
-Disable write protection (if enabled)
+   ```
+4. **Disable write protection (if enabled)**
+   ```bash
+   nvflash --protectoff
+   ```
+5. **Flash new BIOS**
+   ```bash
+   nvflash -6 newbios.rom
+   ```
 
-bash
-Copy
-Edit
-nvflash --protectoff
-Flash new BIOS
+> ⚠️ **Warning:** Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
 
-bash
-Copy
-Edit
-nvflash -6 newbios.rom
-⚠️ Warning: Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
+The `-6` flag forces flashing even if Board ID mismatches occur. Make sure you are flashing a compatible BIOS for your exact GPU. For recovery, a backup BIOS and secondary GPU are recommended.
 
-📒 Notes
-The -6 flag forces flashing even if Board ID mismatches occur.
+If you need help or want to learn more about flashing NVIDIA BIOS, check out these helpful resources:
 
-Make sure you are flashing a compatible BIOS for your exact GPU.
+- [Official NVIDIA NVFlash Documentation](https://www.nvidia.com/en-us/drivers/nvflash/)
+- [NVFlash Downloads on TechPowerUp](https://www.techpowerup.com/download/nvidia-nvflash/)
+- [Overclock.net nvflashk Thread](https://www.overclock.net/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series-including-founders-edition-cards.1807438/)
+- [YouTube: How to Flash NVIDIA GPU BIOS](https://www.youtube.com/watch?v=BnBbfaQayFo)
 
-For recovery, a backup BIOS and secondary GPU are recommended.
-
-📷 Screenshots
-(Insert your screenshots here, e.g. flashing in progress, command prompt output, etc.)
-
-📚 Resources
-Official NVIDIA NVFlash Documentation
-
-NVFlash Downloads on TechPowerUp
-
-Overclock.net nvflashk Thread
-
-YouTube: How to Flash NVIDIA GPU BIOS
-
-🙌 Acknowledgments
-Special thanks to @notfromstatefarm for their work on
-nvflashk, which provided the groundwork for this tool.
-Their dedication to bypassing board ID restrictions made advanced flashing possible for many users.
+Special thanks to [@notfromstatefarm](https://github.com/notfromstatefarm) for their work on  
+[nvflashk](https://github.com/notfromstatefarm/nvflashk), which provided the groundwork for this tool.  
+Their dedication to bypassing board ID restrictions made advanced flashing possible for many users.  
 This patched release builds upon their innovation to enable support for the RTX 50 Series (Blackwell).
+
+---
+
+## 👤 Author
+
+**Your Name**  
+GitHub: [@yourusername](https://github.com/yourusername)  
+Email: your.email@example.com
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
