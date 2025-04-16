@@ -13,8 +13,8 @@ This tool also bypasses Board ID checks, allowing for cross-vendor and custom vB
   Override board ID checks to flash custom BIOS.
 - 🔐 **Safe Flashing**  
   Confirmation prompts reduce the risk of accidental flashing.
-- 💻 **Cross-Platform**  
-  Works on both Windows and Linux systems.
+- 💻 **Windows Support Only**  
+  Works only on Windows systems.
 
 ---
 
