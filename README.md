@@ -28,19 +28,19 @@ This tool also bypasses Board ID checks, allowing for cross-vendor and custom vB
 
 ### Installation
 
-1. **Download** the latest version from [TechPowerUp](https://www.techpowerup.com/download/nvidia-nvflash/)
+1. **Download** the latest version from [Release](https://github.com/WillyBilly06/NVFLASH/releases/tag/Release)
 2. **Extract** the archive to a folder
 3. **Backup your current vBIOS**
    ```bash
-   nvflash --save backup.rom
+   nvflashb --save backup.rom
    ```
 4. **Disable write protection (if enabled)**
    ```bash
-   nvflash --protectoff
+   nvflashb --protectoff
    ```
 5. **Flash new BIOS**
    ```bash
-   nvflash -6 newbios.rom
+   nvflashb -6 YourDesiredBios.rom
    ```
 
 > ⚠️ **Warning:** Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
