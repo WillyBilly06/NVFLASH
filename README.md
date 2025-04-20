@@ -62,8 +62,7 @@ His contributions made it possible to:
 - Safely flash cross-vendor vBIOS
 - Unlock greater flexibility for enthusiasts and developers
 
-This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community.  
-Without his effort and hard work, this new version of the tool wouldn't exist.
+This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community. Without his effort and hard work, this new version of the tool wouldn't exist.
 ---
 ## 👤 Author
 - GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
