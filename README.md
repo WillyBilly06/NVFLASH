@@ -1,24 +1,24 @@
-# 🔧 Patched NVFlash for NVIDIA RTX 50 Series
+#  Patched NVFlash for NVIDIA RTX 50 Series
 
 A modified version of NVIDIA's official NVFlash utility with added support for BIOS flashing on the RTX 50 Series (Blackwell architecture), including the RTX 5090, 5080, and 5070 Ti.  
 This tool also bypasses Board ID checks, allowing for cross-vendor and custom vBIOS flashing.
 
 ---
 
-## ⚙️ Features
+##  Features
 
-- ✅ **Full RTX 50 Series Support**  
+-  **Full RTX 50 Series Support**  
   Flash vBIOS on NVIDIA's newest GPUs (Blackwell).
-- 🛡️ **Board ID Bypass**  
+-  **Board ID Bypass**  
   Override board ID checks to flash custom BIOS.
-- 🔐 **Safe Flashing**  
+-  **Safe Flashing**  
   Confirmation prompts reduce the risk of accidental flashing.
-- 💻 **Windows Support Only**  
+-  **Windows Support Only**  
   Works only on Windows systems.
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 1. **Download** the latest version from [Release](https://github.com/WillyBilly06/NVFLASH/releases/tag/Release)
 2. **Extract** the archive to a folder
@@ -41,7 +41,7 @@ This tool also bypasses Board ID checks, allowing for cross-vendor and custom vB
    nvflashb.exe -6 YourDesiredBios.rom
    ```
 
-> ⚠️ **Warning:** Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
+>  **Warning:** Flashing your GPU BIOS can brick your graphics card. Always create a backup first and proceed only if you understand the risks.
 
 The `-6` flag forces flashing even if Board ID mismatches occur. Make sure you are flashing a compatible BIOS for your exact GPU. For recovery, a backup BIOS and secondary GPU are recommended.
 
@@ -51,7 +51,7 @@ If you need help or want to learn more about flashing NVIDIA BIOS, check out the
 - [Overclock.net nvflashk Thread](https://www.overclock.net/threads/nvflashk-flash-any-bios-to-nvidia-gpus-safe-board-id-bypass-up-to-4xxx-series-including-founders-edition-cards.1807438/)
 - [YouTube: How to Flash NVIDIA GPU BIOS](https://www.youtube.com/watch?v=BnBbfaQayFo)
 ---
-## 🙌 Acknowledgments
+##  Acknowledgments
 
 Huge thanks to [@notfromstatefarm](https://github.com/notfromstatefarm) for his incredible work on  
 [nvflashk](https://github.com/notfromstatefarm/nvflashk), which introduced powerful modifications to NVIDIA's NVFlash utility.
@@ -64,12 +64,12 @@ His contributions made it possible to:
 
 This project builds upon that foundation to bring **RTX 50 Series (Blackwell)** compatibility to the community. Without his effort and hard work, this new version of the tool wouldn't exist.
 ---
-## 👤 Author
+##  Author
 - GitHub: [@WillyBilly06](https://github.com/WillyBilly06)  
 - Email: who18@calpoly.edu || billydakidz0605@gmail.com
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the [MIT License](LICENSE).
 
